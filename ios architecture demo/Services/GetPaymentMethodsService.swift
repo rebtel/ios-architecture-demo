@@ -7,6 +7,6 @@
 
 import Foundation
 
-protocol GetPaymentMethodsService: AnyObject {
-    func getPaymentMethods() -> [PaymentMethod]
-}
+//protocol GetPaymentMethodsService: AnyObject {
+//    func getPaymentMethods() -> [PaymentMethod]
+//}

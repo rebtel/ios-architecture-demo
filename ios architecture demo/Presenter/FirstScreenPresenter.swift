@@ -7,18 +7,18 @@
 
 import Foundation
 
-protocol FirstScreenView: AnyObject {
-    func updateLabel(with string: String)
-}
-
-final class FirstScreenPresenter {
-    private let view: FirstScreenView
-    
-    init(view: FirstScreenView) {
-        self.view = view
-    }
-    
-    func updateLabel(with string: String) {
-        self.view.updateLabel(with: string)
-    }
-}
+//protocol FirstScreenView: AnyObject {
+//    func updateLabel(with string: String)
+//}
+//
+//final class FirstScreenPresenter {
+//    private let view: FirstScreenView
+//    
+//    init(view: FirstScreenView) {
+//        self.view = view
+//    }
+//    
+//    func updateLabel(with string: String) {
+//        self.view.updateLabel(with: string)
+//    }
+//}

@@ -11,7 +11,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
     var navController: UINavigationController!
-    var coordinator: Coordinator!
+    //var coordinator: Coordinator!
     
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
@@ -25,9 +25,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         self.navController = UINavigationController()
         
         window.rootViewController = navController
-        self.coordinator = Coordinator(navigationController: self.navController,
-                                       mockNetworkingClient: AlternateNetworkingClient())
-        self.coordinator.start()
+//        self.coordinator = Coordinator(navigationController: self.navController,
+//                                       mockNetworkingClient: AlternateNetworkingClient())
+//        self.coordinator.start()
         window.makeKeyAndVisible()
         print("started")
     }

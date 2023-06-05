@@ -7,14 +7,14 @@
 
 import Foundation
 
-final class RemoteGetPaymentMethodsService: GetPaymentMethodsService {
-    private let client: GetPaymentMethodsClient
-    
-    init(client: GetPaymentMethodsClient) {
-        self.client = client
-    }
-    
-    func getPaymentMethods() -> [PaymentMethod] {
-        self.client.getPaymentMethods()
-    }
-}
+//final class RemoteGetPaymentMethodsService: GetPaymentMethodsService {
+//    private let client: GetPaymentMethodsClient
+//    
+//    init(client: GetPaymentMethodsClient) {
+//        self.client = client
+//    }
+//    
+//    func getPaymentMethods() -> [PaymentMethod] {
+//        self.client.getPaymentMethods()
+//    }
+//}
